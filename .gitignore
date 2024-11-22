@@ -1,0 +1,8 @@
+
+/server/node_modules
+/node_modules
+server/.env
+spotify-app/.env
+/.vscode
+spotify-app/package-lock.json
+spotify-app/.env.sample

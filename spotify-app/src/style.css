@@ -1,0 +1,45 @@
+#nav {
+  background-image: linear-gradient(to bottom, #1DB954, #fff);
+  margin: 0;
+  padding: 0;
+  padding-top: 40px;
+}
+
+#body {
+  padding-top: 40px;
+}
+
+#title {
+  letter-spacing: 2px;
+  padding-bottom: 50px;
+}
+
+.container{
+  display: flex;
+  border: 0;
+  padding: 0;
+}
+
+.link {
+  letter-spacing: 2px;
+  flex-grow: 1;
+  text-decoration: none;
+  font-size: 20px;
+  display: inline-block;
+  padding: 30px 30px;
+  color:#000;
+  font-size: 23px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.link:hover {
+  background-color: #1AA34A;
+  color: #fff;
+}
+
+.trackbg :hover{
+  background-color: #1DB954;
+}
