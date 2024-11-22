@@ -6,3 +6,4 @@ spotify-app/.env
 /.vscode
 spotify-app/package-lock.json
 spotify-app/.env.sample
+server/package-lock.json
