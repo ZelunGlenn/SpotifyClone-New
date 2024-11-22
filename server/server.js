@@ -105,13 +105,11 @@ app.post('/recommendationSong', (req,res) => {
   spotifyApi.setAccessToken(req.body.accessToken)
   spotifyApi.getRecommendations({seed_tracks: req.body.bestSuitSongs})
     .then(data =>{
-      // console.log(data)
       res.json({
         track:data.body.tracks
       })
     })
     .catch((err) =>{
-      // console.log(err)
       res.sendStatus(400)
     })
 })
@@ -161,13 +159,11 @@ app.post('/songsFeature', (req,res) => {
   spotifyApi.setAccessToken(req.body.accessToken)
   spotifyApi.getAudioFeaturesForTracks(req.body.songs)
     .then(data =>{
-      // console.log(data.body);
       res.json({
         features:data.body.audio_features
       })
     })
     .catch((err) =>{
-      // console.log(err)
       res.sendStatus(400)
     })
 })
